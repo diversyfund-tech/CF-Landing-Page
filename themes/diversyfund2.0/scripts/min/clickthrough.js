@@ -1,2 +1,0 @@
-$(document).ready((function(){const e=$(".clickthrough-dialog"),t=$(".close-clickthrough");"true"!==sessionStorage.getItem("dialogClosed")&&e.length&&(setTimeout((function(){e.show()}),1500),setTimeout((function(){e.addClass("active")}),1700)),t.click((function(t){t.preventDefault(),sessionStorage.setItem("dialogClosed","true"),e.fadeOut(),setTimeout((function(){e.removeClass("active")}),200)}))}));
-//# sourceMappingURL=clickthrough.js.map
